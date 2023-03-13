@@ -1,0 +1,9 @@
+begin
+int a,b,c,d,total,percentage
+print("enter the employee salary:",d)
+input a,b,c
+total=a+b+c
+percentage=employee salary(d)*total/100
+print("the total shopping amount is:",total)
+print("the percentage amount employee is spending:",percentage)
+end
