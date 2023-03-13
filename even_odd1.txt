@@ -1,0 +1,11 @@
+begin
+   numeric num
+   print("enter the num:")
+   input num
+   if(num%2==0){
+        print("the num is:",even)
+   }   
+    else{
+     print("the num is:",odd)
+       }
+end 
