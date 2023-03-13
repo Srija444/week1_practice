@@ -1,0 +1,12 @@
+begin
+numeric num1,num2,num3,sum,average
+print("enter the num1:")
+print("enter the num2:")
+print("enter the num3:")
+input num1,num2,num3
+sum=num1+num2+num3
+average=sum/3
+print("the sum of three subjects is:",sum)
+print("the average of three subjects is:",average)
+end
+
