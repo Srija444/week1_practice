@@ -1,0 +1,12 @@
+begin
+numeric num
+print("enter the num:")
+input num
+if(num>0){
+print("the num is postive")
+}
+else{
+print("the num is negative")
+}
+
+end 
