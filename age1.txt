@@ -1,0 +1,12 @@
+begin
+  numeric num
+  print("enter the number:")
+  input num
+  if(num>=18){
+      print("eligible for voting")
+} 
+   else{
+       print("not eligible for voting")
+    }
+
+end
