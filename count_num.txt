@@ -1,0 +1,9 @@
+begin
+numeric i=456,count=0;
+while(i>0){
+i = i/10;
+count++;
+}
+print("the number of digits are"+count);
+}
+end
