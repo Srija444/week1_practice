@@ -1,0 +1,16 @@
+begin
+numeric num,i=1,sum=0;
+print("enter the number:");
+while(i<num){
+  if(num%i==0){
+       sum=sum+i;
+        i++;
+     }
+     if(sum=num){
+          print("perfect num");
+           }
+        else{
+           print("not a perfect num");
+           }
+}
+end
