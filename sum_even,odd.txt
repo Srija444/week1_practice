@@ -1,0 +1,17 @@
+begin
+numeric even_sum=0,odd_sum=0,i=1,n=0;
+print("enter the n value:")
+input n;
+while(i<=n){
+if(i%2==0){
+even_sum=even_sum+i;
+}
+else{
+odd_sum=odd_sum+i;
+}
+i++;
+}
+print("sum of even numbers:"even_sum);
+print("the sum of odd numbers:"odd_sum);
+}
+end
