@@ -1,0 +1,60 @@
+begin
+numeric num,reverse=0,temp,rem;
+num=temp;
+while(temp!=0){
+rem=temp%10;
+reverse=reverse*10+rem;
+temp=temp/10;
+}
+ if(num==reverse){
+     print("it is a palindrome number");
+}
+ else{
+print("it is not a palindrome");
+}
+end
+
+
+
+Check how it will work
+  
+Step 1:
+    take num=1221,temp=1221,reverse=0
+    rem=temp%10
+    rem=1221%10=1
+    reverse=reverse*10+rem
+    reverse=0*10+1=1
+    temp=temp/10
+    temp=1221/10=122
+
+step 2:
+    now num=1221,temp=122,reverse=1
+    rem=temp%10
+    rem=122%10=2
+    reverse=reverse*10+rem
+     reverse=1*10+2=12
+    temp=temp/10
+        =122/10=12
+
+
+step 3:
+    num=1221,temp=12,reverse=12
+    rem=temp%10
+     rem=12%10=2
+     reverse=reverse*10+rem
+     reverse=12*10+2=122
+     temp=temp/10
+     temp=12/10=1
+
+
+step 4:
+     num=1221;temp=1,reverse=122
+     rem=temp%10
+     rem=1
+     reverse=reverse*10+rem
+     reverse=122*10+1=1221
+     temp=temp/10
+     temp=1/10=0
+
+   UNTIL
+  num==reverse
