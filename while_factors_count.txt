@@ -1,0 +1,11 @@
+begin
+numeric num,i=1,count=0;
+while(i<=num/2){
+   if(num%i==0){
+        count++;
+     }
+      i++;
+}
+print("the no. of factors are:",count);
+}
+end
