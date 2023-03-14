@@ -1,0 +1,10 @@
+begin
+numeric sum=0,n=0,i=1
+print("enter  n value to find sum:")
+input n
+do{
+sum=sum+i;
+i++
+}while(i<=n);
+print("sum of 1-n is",sum);
+end 
