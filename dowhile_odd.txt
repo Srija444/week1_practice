@@ -1,0 +1,11 @@
+begin
+numeric num,i=1;
+print("enter the n value:");
+input n
+do{
+if(i%2!=0){
+print(i)
+}
+i++;
+}while(i<=n)
+end
