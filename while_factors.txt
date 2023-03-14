@@ -1,0 +1,11 @@
+begin
+numeric num,i=1
+print("enter the num to print factors:")
+input num
+while(i<=num/2){
+ if(num%i==0){
+    print(i)
+}
+i++;
+}
+end
