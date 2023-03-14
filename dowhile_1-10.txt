@@ -1,0 +1,7 @@
+begin
+numeric num=1
+do{
+print(num)
+num++
+}while(num<=10);
+end
