@@ -1,0 +1,7 @@
+begin
+numeric i=10
+do{
+print(i)
+i--;
+}while(i>=1);
+end
